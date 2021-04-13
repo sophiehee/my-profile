@@ -1,0 +1,106 @@
+/* Colours & Fonts */
+
+body{
+	background-color: #81b5dc33;
+	font-family: Helvetica;	
+	color: #1e6092b8;
+	font-weight: lighter;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+a{
+	text-decoration: none;
+	color: #81b5dc;
+}
+
+a:hover{
+	color: Black;
+}
+
+img{
+	border-radius: 50%;
+	width: 200px;
+}
+
+h1{
+    color: #1e6092;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2{
+    color: #1e6092;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+ 
+}
+
+
+
+
+/* Custom design with class */
+
+.btn-blue{
+	background-color: #1e6092;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	color: white;
+}
+
+
+}
+
+.list-inline {
+	list-style: none;
+
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+ul {
+padding-inline-start: 0px;
+}
+
+.list-inline i{
+	font-size: 40px;
+}
+
+p{
+	margin: 40px;
+}
+
+
+.card-white{
+	background-color: white;
+	border: 1px solid rgba(0,0,0,10%);
+	border-radius: 5px;
+	padding: 40px;
+	margin: 50px auto;
+	box-shadow: 0px 10px 30px rgb(0,0,0,50%);
+
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}	
